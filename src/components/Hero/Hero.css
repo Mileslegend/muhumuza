@@ -1,7 +1,6 @@
 #hero{
     overflow: hidden;
     position: relative;
-
 }
 
 #hero .info-container{
@@ -9,24 +8,23 @@
     grid-template-columns: auto 500px;
     gap: 20px;
     min-height: 100vh;
-
 }
 
 #hero .info-container .column:nth-child(1){
     padding-top: 70px;
-
 }
 
 #hero .heading-1,
 #hero .sub-title{
     text-align: left;
-
 }
 
 #hero .wrapper .buttons-wrapper{
     justify-content: flex-start;
     margin-top: 40px;
 }
+/*cluster*/
+
 #hero .achievement-cluster{
     position: absolute;
     bottom: 0;

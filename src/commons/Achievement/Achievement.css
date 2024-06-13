@@ -1,6 +1,6 @@
 .achievement-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
     margin: 20px 0;
 
@@ -24,7 +24,6 @@
 .achievement-container .name{
     text-align: center;
     font-style: 20px;
-
 }
 
 /* Responsive code */
@@ -55,19 +54,16 @@
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
     display: inline-block;
     vertical-align: middle;
-   
     position: relative;
   }
   .odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-default .odometer-digit {
     display: inline-block;
     vertical-align: middle;
-    
     position: relative;
   }
   .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer, .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
     display: inline-block;
     vertical-align: middle;
-    
     visibility: hidden;
   }
   .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
