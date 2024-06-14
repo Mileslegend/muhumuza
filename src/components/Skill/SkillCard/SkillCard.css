@@ -1,0 +1,7 @@
+.skill-card{
+    padding: 30px 40px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    border-radius: 20px;
+    background: var(--bg-accent);
+}
