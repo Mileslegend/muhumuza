@@ -9,13 +9,13 @@ const Hero = () => {
     <section id='hero'>
       <div className="wrapper info-container">
         <div className="column">
-          <h3 className='sub-title'>
+          <h3 className='sub-title' data-aos='fade-right' data-aos-duration='1000'>
             Hi, I'm <span className="primary">Muhumuza Miles</span>
           </h3>
-          <h1 className="heading-1">
+          <h1 className="heading-1" data-aos='fade-up' data-aos-duration='1000'>
             A <span className="gradient-text">Fullstack</span>Web Developer
           </h1>
-          <p className="muted"> 
+          <p className="muted" data-aos='fade-up' data-aos-duration='2000'> 
             who combines technical expertise with a creative flair to build captivating online experiences. With a mastery of coding languages and a passion for innovation, I transform ideas into beautifully functional websites.
           </p>
           <div className="flex-center buttons-wrapper">
@@ -23,6 +23,7 @@ const Hero = () => {
             to='services' 
             smooth={true}
             className='btn primary'
+            data-aos='fade-left' data-aos-delay='2000' data-aos-offset='50'
             >
               Learn More
             </Link>
@@ -30,12 +31,13 @@ const Hero = () => {
             to='contact' 
             smooth={true}
             className='btn'
+            data-aos='fade-left' data-aos-delay='1500' data-aos-offset='50'
             >
               Get Started
             </Link>
           </div>
         </div>
-        <div className="column hero-image">
+        <div className="column hero-image" data-aos='fade-left' data-aos-delay='200'>
           <img src={me} alt="me" />
         </div>
       </div>

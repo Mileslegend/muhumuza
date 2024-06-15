@@ -4,7 +4,7 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 
 const SkillCard = ({data, title}) => {
   return (
-    <div className='skill-card'>
+    <div className='skill-card' data-aos='fade-up' data-aos-duration='1000'>
         <h3 className="title gradient-text">
             {title}
         </h3>
